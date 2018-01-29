@@ -17,7 +17,8 @@ Scenario: Third scenario in third feature
  When I click on Help
  Then I should be taken to Help page
  
- Scenario: Fourth scenario in Third feature
+
+ Scenario: Fourth scenario in 3rd feature
  Given I am logged in to application
  When I click on Help
  Then I should be taken to Help page
