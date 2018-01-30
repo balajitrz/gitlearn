@@ -14,8 +14,4 @@ public class Navigation {
 		driver.get(url);
 	}
 	
-	public String getCurrentURL() {
-		return driver.getCurrentUrl();
-	}
-	
 }
