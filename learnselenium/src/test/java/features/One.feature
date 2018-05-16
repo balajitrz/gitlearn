@@ -1,12 +1,17 @@
 Feature: Feature one
 
-Scenario: First scenario in first feature
- Given I am logged in to application
- When I click on Settings
- Then I should be taken to Settings page
+Scenario Outline: First scenario in first feature
+ Given I have opened the application
+ When I try to search on <keyword>
+ Then I should be taken to results page with relevant results
+ 
+ Examples:
+ |keyword|
+ |news|
+ |weather|
  
  @Login
  Scenario: Second scenario in First feature
- Given I am logged in to application
- When I click on Help
- Then I should be taken to Help page
+ Given I have opened the application
+ When I enter a <keyword> and click IamFeelingLucky button
+ Then I should be taken to corresponding website

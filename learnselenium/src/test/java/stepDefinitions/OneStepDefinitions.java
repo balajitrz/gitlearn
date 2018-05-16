@@ -5,28 +5,27 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class OneStepDefinitions {
-	@Given("^I am logged in to application$")
-	public void i_am_logged_in_to_application() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
+	@Given("^I have opened the application$")
+	public void i_have_opened_the_application() throws Throwable {
 	}
 
-	@When("^I click on Settings$")
-	public void i_click_on_Settings() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
+	@When("^I try to search on news$")
+	public void i_try_to_search_on_news() throws Throwable {
 	}
 
-	@Then("^I should be taken to Settings page$")
-	public void i_should_be_taken_to_Settings_page() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
+	@Then("^I should be taken to results page with relevant results$")
+	public void i_should_be_taken_to_results_page_with_relevant_results() throws Throwable {
 	}
 
-	@When("^I click on Help$")
-	public void i_click_on_Help() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
+	@When("^I try to search on weather$")
+	public void i_try_to_search_on_weather() throws Throwable {
 	}
 
-	@Then("^I should be taken to Help page$")
-	public void i_should_be_taken_to_Help_page() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
+	@When("^I enter a <keyword> and click IamFeelingLucky button$")
+	public void i_enter_a_keyword_and_click_IamFeelingLucky_button() throws Throwable {
+	}
+
+	@Then("^I should be taken to corresponding website$")
+	public void i_should_be_taken_to_corresponding_website() throws Throwable {
 	}
 }
